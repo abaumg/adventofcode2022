@@ -1,0 +1,9 @@
+# Advent of Code 2022
+
+This repository contains my solutions for the [Advent of Code 2022](https://adventofcode.com/2022/).
+
+I'm participating just for fun, so don't expect particularly clever solutions.
+
+## Completed challenges
+- Day 1: Calorie Counting *(both parts)*
+- Day 2: Rock Paper Scissors *(both parts)*
