@@ -7,3 +7,4 @@ I'm participating just for fun, so don't expect particularly clever solutions.
 ## Completed challenges
 - Day 1: Calorie Counting *(both parts)*
 - Day 2: Rock Paper Scissors *(both parts)*
+- Day 3: Rucksack Reorganization *(both parts)*
