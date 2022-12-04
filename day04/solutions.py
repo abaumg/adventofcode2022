@@ -3,6 +3,7 @@ import os
 with open(f"{os.path.dirname(__file__)}/input.txt", "r") as inputFile:
 
     solutionpart1 = 0
+    solutionpart2 = 0
     for pairs in inputFile.read().splitlines():
         pair1, pair2 = list(sorted(pairs.split(",")))
         pair1start, pair1end = map(int, pair1.split("-"))
@@ -15,4 +16,8 @@ with open(f"{os.path.dirname(__file__)}/input.txt", "r") as inputFile:
         ):
             solutionpart1 += 1
 
+        if max(range1.start, range2.start) <= min(range1.stop, range2.stop):
+            solutionpart2 += 1
+
     print(f"Solution part 1: {solutionpart1}")
+    print(f"Solution part 2: {solutionpart2}")
