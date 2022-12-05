@@ -30,12 +30,11 @@ for instruction in instructionsContent.readlines():
 
     remainingSource = sourceDict[numberOfCrates:]
     cratesToMove = sourceDict[0:numberOfCrates]
-    cratesToMove.reverse()
     destinationAfterMoving = cratesToMove + destinationDict
 
     stacks[sourceIdx] = remainingSource
     stacks[destinationIdx] = destinationAfterMoving
 
-solutionPart1 = "".join([val[0][1:2] for _, val in stacks.items()])
+solutionPart2 = "".join([val[0][1:2] for _, val in stacks.items()])
 
-print(f"Solution part 1: {solutionPart1}")
+print(f"Solution part 2: {solutionPart2}")

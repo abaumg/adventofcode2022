@@ -9,3 +9,4 @@ I'm participating just for fun, so don't expect particularly clever solutions.
 - Day 2: Rock Paper Scissors *(both parts)*
 - Day 3: Rucksack Reorganization *(both parts)*
 - Day 4: Camp Cleanup *(both parts)*
+- Day 5: Supply Stacks *(both parts)*
