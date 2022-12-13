@@ -13,3 +13,5 @@ I'm participating just for fun, so don't expect particularly clever solutions.
 - Day 6: Tuning Trouble
 - ~~Day 7: No Space Left On Device~~
 - Day 8: Treetop Tree House
+- ~~Day 9: Rope Bridge~~
+- Day 10: Cathode-Ray Tube
