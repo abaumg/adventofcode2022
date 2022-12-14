@@ -78,9 +78,17 @@ for line in lines:
 
 
 solutionPart1 = 0
+solutionPart2 = 0
 
 subdirectoriesSums = list(map(lambda x: calcSize([x]), tree.getSubdirectories()))
 filteredSums = [x for x in filter(lambda x: x <= 100000, subdirectoriesSums)]
 solutionPart1 = sum(filteredSums)
 
+USEDSIZE = calcSize([tree])
+DISKSIZE = 70000000
+REQUIREDFREESIZE =30000000
+requireddeletion = REQUIREDFREESIZE - (DISKSIZE - USEDSIZE)
+solutionPart2 = min([x for x in filter(lambda x: x >= requireddeletion, sorted(subdirectoriesSums))])
+
 print(f"Solution part 1: {solutionPart1}")
+print(f"Solution part 2: {solutionPart2}")
